@@ -36,7 +36,7 @@ a {
 /* Home Section */
 
 .home {
-  height: 80vh;
+  height:80vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -44,7 +44,7 @@ a {
 
 .home .left {
   background-color: var(--bg-color);
-  width: 620px;
+  width:1080px;
   text-align: center;
   padding: 30px;
   border-radius: 10px;
@@ -101,17 +101,20 @@ a {
   }
 }
 
+
+
+
 /* Experience Section */
 
 .ex {
-  width: 900px;
+  width:900px;
 }
 
 .ex-items {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: var(--bg-color);
+  justify-content:space-between;
+  align-items:center;
+  background-color:var(--bg-color);
   margin: 20px;
   padding: 30px;
   width: 800px;
@@ -119,6 +122,9 @@ a {
   border: 1px solid yellow;
   box-shadow: var(--box-shadow);
 }
+
+/* PRoject Section */
+
 
 /* Skills */
 
@@ -131,7 +137,7 @@ a {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  /* width: 800px; */
+  width: 800px;
   margin: auto;
   /* background-color: yellow; */
 }

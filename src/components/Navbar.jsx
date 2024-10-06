@@ -1,4 +1,3 @@
-import React from "react";
 
 const Navbar = () => {
   return (
@@ -7,7 +6,7 @@ const Navbar = () => {
       data-aos="fade-down"
       data-aos-duration="1000" 
       >
-        <div className="left nav_items">Portfolio</div>
+        <div className="left nav_items">Professional Journey</div>
         <div className="right">
           <a href="#home" className="nav_items">
             Home
@@ -21,6 +20,7 @@ const Navbar = () => {
           <a href="#projects" className="nav_items">
             Projects
           </a>
+          <a href="#Achivement" className="nav_items">Achivements</a>
           <a href="#contact" className="nav_items">
             Contact
           </a>

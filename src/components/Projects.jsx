@@ -1,4 +1,4 @@
-import React from "react";
+
 import project from "./data/projects.json";
 
 const Projects = () => {
@@ -11,7 +11,7 @@ const Projects = () => {
             <>
               <div
                 key={data.id}
-                className="my-4 col-sm-6 col-md-4 col-lg-3 mx-4"
+                className="my-4 col-sm-6 col-md-4 col-lg-3 mx-3"
               >
                 <div
                   className="card bg-dark text-light"
